@@ -1,7 +1,7 @@
 # Article Recommender - Claude AI Skill
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/yourusername/article-recommender-skill)
+[![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)](https://github.com/yourusername/article-recommender-skill)
 
 A professional Claude AI skill that generates three-version article recommendations (standard, concise, and critical commentary) in both Chinese and English, specifically designed for BestBlogs.dev's weekly newsletter.
 

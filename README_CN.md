@@ -1,7 +1,7 @@
 # Article Recommender - Claude AI 文章推荐技能
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/yourusername/article-recommender-skill)
+[![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)](https://github.com/yourusername/article-recommender-skill)
 
 一个专业的 Claude AI 技能包，为 BestBlogs.dev 周刊生成三版本文章推荐语（标准版、精炼版、批判性评论版），支持中英文双语输出。
 

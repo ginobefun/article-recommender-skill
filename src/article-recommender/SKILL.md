@@ -60,8 +60,10 @@ This skill generates professional article recommendations in three distinct vers
 
 **Chinese Text**:
 - Use authentic, natural Chinese expressions (地道的中文表达)
-- Apply proper Chinese punctuation (规范的中文标点符号)
+- **Must use full-width Chinese punctuation**: 。，、；：？！（not half-width .,;:?!）
+- Use proper quotation marks: "" or 「」（not half-width ""）
 - Add space between Chinese and English/numbers (中英文、数字之间增加空格)
+- **No spaces around full-width punctuation** (全形标点前后不加空格)
 - Follow Chinese typography standards
 - Avoid Chinglish patterns
 
@@ -201,8 +203,9 @@ For each version:
 
 **Language**:
 - ✓ Natural, idiomatic expressions
-- ✓ Proper punctuation for each language
-- ✓ Spaces added correctly in Chinese (中英文、数字之间)
+- ✓ Chinese uses full-width punctuation (。，、；：？！) not half-width (.,;:?!)
+- ✓ Spaces added correctly in Chinese (中英文、数字之间有空格)
+- ✓ No spaces around full-width punctuation (全形标点前后不加空格)
 - ✓ No Markdown rendering issues
 
 **Tone**:
@@ -266,24 +269,34 @@ Use this template structure:
 
 ## Common Pitfalls to Avoid
 
-1. **过度引用**: Don't use excessive quotation marks
+1. **使用英文标点**: Chinese text MUST use full-width punctuation
+   - ✗ 这篇文章介绍了API设计的核心原则,包括一致性、简洁性和可扩展性.
+   - ✓ 这篇文章介绍了 API 设计的核心原则，包括一致性、简洁性和可扩展性。
+   - ✗ GitHub团队发布了新功能!开发者可以更方便地进行代码审查了.
+   - ✓ GitHub 团队发布了新功能！开发者可以更方便地进行代码审查了。
+
+2. **标点前后加空格**: No spaces around full-width punctuation
+   - ✗ 刚刚买了一部 iPhone ，好开心 ！
+   - ✓ 刚刚买了一部 iPhone，好开心！
+
+3. **过度引用**: Don't use excessive quotation marks
    - ✗ "AI"模型需要"结构化"的"短指令"
    - ✓ AI 模型需要结构化的短指令
 
-2. **括号滥用**: Minimize parenthetical asides
+4. **括号滥用**: Minimize parenthetical asides
    - ✗ GitHub 团队 (基于大量用户反馈) 提供了 (经过验证的) 编写策略
    - ✓ GitHub 团队基于大量用户反馈，提供了经过验证的编写策略
 
-3. **口语过渡**: Avoid unnecessary conversational fillers
+5. **口语过渡**: Avoid unnecessary conversational fillers
    - ✗ 那么，让我们来看看这篇文章主要讲了什么
    - ✓ 文章主要介绍了...
 
-4. **浮夸表述**: Keep praise measured and credible
+6. **浮夸表述**: Keep praise measured and credible
    - ✗ 这是史上最强大的、绝无仅有的、不可或缺的指南
    - ✓ 这是一份不可多得的实操手册
 
-5. **空格错误**: Ensure proper spacing in Chinese
-   - ✗ GitHub 官方发布的 Copilot 代码审查指南
+7. **空格错误**: Ensure proper spacing in Chinese
+   - ✗ GitHub官方发布的Copilot代码审查指南
    - ✓ GitHub 官方发布的 Copilot 代码审查指南
 
 ## Notes for BestBlogs.dev Context
